@@ -16,6 +16,28 @@ where it is used to interactively show the conversion status in a table of files
 
 After all files are converted, you can reset it using "Start over" button.
 
+# building & running
+
+There is no official release yet, so to build&run this yourself, you need:
+
+
+1. (Tauri v2 build prerequisites)[https://v2.tauri.app/start/prerequisites/]
+2. Node v22
+
+Then you can follow this script to build it:
+
+```
+npm i
+npm run tauri build
+```
+
+Alternatively, you can run it in development mode:
+
+```
+npm run tauri dev
+```
+
+
 # License
 
 MIT or whatever
