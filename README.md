@@ -39,6 +39,21 @@ Alternatively, you can run it in development mode:
 npm run tauri dev
 ```
 
+After initial launch, it will download the FFMPEG binary via the awesome rust [ffmpeg-sidecar](https://github.com/nathanbabcock/ffmpeg-sidecar)
+and save it to the appropriate `%APP_DATA%` location
+
+
+# Project TODO
+
+- [ ] ffmpeg status/missing error/download/locate binary
+- [ ] convert templates in settings
+- [ ] spinners for convert button while conversion is in progress, spinners for table rows in status
+- [ ] file size and actions columns in table
+- [ ] actions: delete if status is pending, locate if done, locate logs if error
+- [ ] write logs for each conversion next to binary, stdout stderr
+- [ ] build for x64, test on intel mac
+- [ ] build for linux, test on ubuntu
+- [ ] build for windows, test on bootstrap
 
 # License
 
