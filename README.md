@@ -16,6 +16,8 @@ where it is used to interactively show the conversion status in a table of files
 
 After all files are converted, you can reset it using "Start over" button.
 
+![Screenshot](https://imgur.com/a/Fxkejzv)
+
 # building & running
 
 There is no official release yet, so to build&run this yourself, you need:
